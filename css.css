@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+font-family: 'Noto Sans JP', sans-serif;
+    
+}
+.header{
+    text-align: center;
+   
+}
+h2{
+    font-size: 32px;
+    padding-top: 142px;
+    
+}
+.header p{
+    font-size: 16px;
+    font-weight: bold;
+}
+font{
+    color: #f3a300;
+}
+.document{
+    padding-top: 5px;
+    padding-bottom: 30px;
+   
+}
+.document2{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.document2 a{
+    color: green;
+    text-decoration: none;
+    
+    
+}
+.main{
+    height: 335px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+   
+}
+
+.left{
+    width: 50%;
+    height: 335px;
+   
+    float: left;
+}
+.center{
+    width: 33%;
+    height: 335px;
+    
+   
+    float: left;
+}
+.right_center{
+    height: 100%;
+
+}
+
+.right{
+    width: 17%;
+    height: 335px;
+   
+    float: left;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #fdf1d9;
+}
+
+footer a{
+    color: green;
+    text-decoration: none;
+}
+.footer1{
+    padding: 20px 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.footer2{
+    padding-bottom: 50px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+/* mobile */
+@media only screen and (max-width: 748px){
+    .header p{
+        font-size: 20px;
+    }
+    .document p{
+        font-size: 20px;
+    }
+    .document2 p{
+        font-size: 20px;
+    }
+    .main{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer1 p{
+        font-size: 20px;
+    }
+    .footer2 p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1192px){
+    .header p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    h2{
+        padding-top:155px ;
+    }
+    .document p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .document2 p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .main{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer1 p{
+        font-size: 20px;
+    }
+    .footer2 p{
+        font-size: 20px;
+    }
+}
